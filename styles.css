@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+    color: black;
+    line-height: 1.6;
+}
+
+header {
+    background-color: purple;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img.perfil {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #772066;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alineación horizontal */
+    justify-content: center; /* Centrado horizontal */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre enlaces */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+#experiencias, #contacto, #eduacion {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#contacto{
+    background-color: #dc90cd;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.experiencia {
+    background-color: #dc90cd;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.eduaciones {
+    background-color: #dc90cd;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.eduaciones h3 {
+    margin-top: 0;
+    color: #333;
+}
+#contacto a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
